@@ -171,6 +171,7 @@
                     <version>${maven-gpg-plugin.version}</version>
                     <configuration>
                         <bestPractices>true</bestPractices>
+                        <keyname>BF52B52FECFB5C41AABD232C710B1DCED2752977</keyname>
                         <gpgArguments>
                             <!--<arg>&#45;&#45;pinentry-mode</arg>-->
                             <!--<arg>loopback</arg>-->
