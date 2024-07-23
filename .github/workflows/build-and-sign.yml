@@ -75,3 +75,5 @@ jobs:
         shell: bash
         run: |
           ./mvnw --batch-mode --show-version clean verify
+        env:
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
