@@ -17,18 +17,18 @@ jobs:
         java-version:
           - 17
           - 21
-        # os:
-        #   - ubuntu-20.04
-        #   - ubuntu-22.04
-        #   - macos-12
-        #   - macos-13
-        #   - windows-2019
-        #   - windows-2022
+        os:
+          - ubuntu-20.04
+          - ubuntu-22.04
+          - macos-12
+          - macos-13
+          - windows-2019
+          - windows-2022
         gpg-plugin-version:
           - "3.1.0"
           - "3.2.4"
 
-    runs-on: self-hosted
+    runs-on: ${{ matrix.os }}
 
     steps:
       - name: "Checkout"
