@@ -17,7 +17,7 @@ jobs:
         java-version:
           - 17
           - 21
-        os: x64
+        os: X64
           # - ubuntu-20.04
           # - ubuntu-22.04
           # - macos-12
